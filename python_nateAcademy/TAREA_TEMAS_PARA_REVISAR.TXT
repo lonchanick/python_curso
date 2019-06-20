@@ -1,0 +1,7 @@
+========================================
+TEMAS PENDIENTE DE REVISAR A PROFUNDIDAD
+========================================
+-> funcion lambda
+-> libreria tkinter 
+-> libreria pickle
+-> libreria OS
