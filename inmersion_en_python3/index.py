@@ -164,12 +164,7 @@ class Conjuntos(object):
 		conjunto_4.issuperset(conjunto_3)
 		print("Conjunto #4 es super-conjunto de Conjunto #3? ",conjunto_4.issuperset(conjunto_3))
 
-class Diccionario(object):
-	"""docstring for diccionario"""
-	def __init__(self, arg):
-		print("Estamos masomenos claro con el funcionamiento de los diccionarios, eso creo :/ ")
-
-		
+	
 class Modulo_os(object):
 
 	def ejemplo_1():
@@ -248,12 +243,48 @@ class Modulo_os(object):
 		#pendiente 21 / 06 / 2019
 		pass
 
+class Diccionarios(object):
+	"""Diccionarios por compresion [3.2] pag 92"""
+	def ejemplo_1():
+		import os, glob
+		metadata = [(item, os.stat(item)) for item in glob.glob('ejemplos/*copy*.xml')]
+		print(metadata [0])
+
+		metadata_dict = {item : os.stat(item) for item in glob.glob('ejemplos/*copy*.xml')}
+		print(type(metadata_dict))
+		for x in list(metadata_dict.keys()):
+			print(x)
+
+	def diccionario_pc():
+			"""diccionario por comprension [3.4] pag 92 """
+			import os, glob
+
+			dictt = {os.path.splitext(f)[0]:os.stat(f).st_size for f in glob.glob('ejemplos/*') if os.stat(f).st_size > 6000}
+
+			print(type(dictt))
+			print("Diccionario completo:")
+			for key, value in dictt.items():
+				print(key, "->",(value/1024),"KB")
+
+			print ("\nClaves del diccionario: \n")
+			for x in list(dictt.keys()):
+				print (x)
+
+			print("\nDiccionario invertido: ")
+			invert = {key : value for value, key in dictt.items()}
+			#print(invert)
+			for key, value in invert.items():
+				print(key, "->",value,"KB")
+
+
 def main():
-	#Conjuntos().operaciones()
+	#Conjuntos().conjuntos_pc()
 	#Listas().ejemplo_1()
 	#Tuplas().ejemplo_1() 
 	#Modulo_os.ejemplo_5()
-	
+	#Diccionarios.ejemplo_1()
+	Diccionarios.diccionario_pc()
+
 
 if __name__ == "__main__":
 	main()
