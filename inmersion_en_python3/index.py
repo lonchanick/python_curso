@@ -13,8 +13,9 @@ def main():
 	#Tuplas().ejemplo_1()
 	#Conjuntos().ejemplo_1()
 	#Modulo_os.ejemplo_5()
-	Diccionarios.ejemplo_1()
-	Diccionarios.diccionario_pc()
+	print(Modulo_os.ejemplo_2())
+	#Diccionarios.ejemplo_1()
+	#Diccionarios.diccionario_pc()
 
 
 if __name__ == "__main__":
