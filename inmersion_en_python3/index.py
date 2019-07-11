@@ -8,12 +8,15 @@ from ficherosDe_clases.modulo_os import Modulo_os
 from ficherosDe_clases.diccionarios import Diccionarios
 
 def main():
+
 	#print_titulo("Hola mundo")
 	#Listas().ejemplo_1()
+	#Listas().por_comprension_1()
+	Listas().por_comprension_2()
 	#Tuplas().ejemplo_1()
 	#Conjuntos().ejemplo_1()
 	#Modulo_os.ejemplo_5()
-	print(Modulo_os.ejemplo_2())
+	#print(Modulo_os.ejemplo_4())
 	#Diccionarios.ejemplo_1()
 	#Diccionarios.diccionario_pc()
 

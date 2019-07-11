@@ -1,4 +1,12 @@
 from ficherosDe_clases.utiles import print_titulo,print_sub_titulo
+"""
+print("\n*) COMMAND: DESCRIPTION")
+		print("\t<< COMMAND_INPUT")
+		print("\t>> {}".format(PARAM))
+		print("\t>> {}".format(PARAM))
+
+"""
+
 
 class Modulo_os(object):
 
@@ -52,28 +60,36 @@ class Modulo_os(object):
 		for item in result:
 			print("\t>> {}".format(item))
 
-		print("\n")
-		print_sub_titulo("Obteniendo metadatos de ficheros")
 
 	def ejemplo_3():
+		print_titulo("OBTENER METADATOS DE FICHEROS") 
 		""" obtener metadatos de ficheros [3.2.4] pag 88"""
 		import os
 		import time
-		current_dir = os.getcwd() #averigua el directorio actual de trabajo
-		print("Directorio actual de trabajo: ",current_dir)
-		metadata = os.stat('ejemplos/test_file#1.xml')
+		metadata = os.stat('archivos_de_muestra/test_file#1.xml')
 		#obtiene los metadatos del archivo test_file#1.xml
-		print(metadata.st_mtime)#contiene la fecha y la hora de modificacion pero en un formato que no sirve pa nada (revisar pagina 88 de inmersion a python 3)
-		x = time.localtime(metadata.st_mtime) #convierte esos metadatos en algo mas legible
-		print("metadatos: ",x)
+		#metadata.st_mtime#contiene la fecha y la hora de modificacion pero en un formato que no sirve pa nada (revisar pagina 88 de inmersion a python 3)
+		x = time.localtime(metadata.st_mtime) 
+		#convierte la fecha obtenida en algo mas legible
+		print("\n*) Obtiene los metadatos del archivo test_file#1.xml")
+		print("\t<< os.stat('archivos_de_muestra/test_file#1.xml')")
+		print("\t>> {}".format(metadata))
 
-		print("Tamano del archivo en bytes: ", metadata.st_size)
+		print("\n*) Combierte en un formato mas legible lo obtenido en la linea anterior")
+		print("\t<< time.localtime(metadata.st_mtime)")
+		print("\t>> {}".format(x))
+
+		print("\n*) Devuelve el tamaño del arvhivo")
+		print("\t<< metadata.st_size")
+		print("\t>> {}".format(metadata.st_size))
 
 	def ejemplo_4():
-		"""construccion de rutas absolutas"""
+		"""construccion de rutas absolutas PAG 89"""
+		print_titulo("CONSTRUCCION DE RUTAS ABSOLUTAS") 
 		import os
-		print("Ruta actual de trabajo: ",os.getcwd())
-		print("Ruta absoluta de test_file#1.xml: ",os.path.realpath('archivos_de_muestra/test_file#1.xml'))
+		print("\n*) Ruta absoluta de test_file#1.xml")
+		print("\t<< os.path.realpath('archivos_de_muestra/test_file#1.xml')")
+		print("\t>> {}".format(os.path.realpath('archivos_de_muestra/test_file#1.xml')))
 
 	def ejemplo_5():
 		"""listas por compresion [3.3] pag 89"""
