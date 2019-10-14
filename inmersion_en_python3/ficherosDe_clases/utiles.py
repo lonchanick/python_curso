@@ -10,7 +10,7 @@ def print_sub_titulo(titulo):
 		print("",titulo)
 		print("-"*size)
 
-def print_io(inputs="", outputs="" ):
+def print_io(inputs="", outputs=""):
 		if inputs.strip():
 			print("<<",inputs)
 		if outputs.strip():

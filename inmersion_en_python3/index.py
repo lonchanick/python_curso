@@ -14,10 +14,13 @@ from ficherosDe_clases.tuplas import Tuplas
 from ficherosDe_clases.conjuntos import Conjuntos
 from ficherosDe_clases.modulo_os import Modulo_os
 from ficherosDe_clases.diccionarios import Diccionarios
+from ficherosDe_clases.diccionarios import Diccionarios
+from ficherosDe_clases.peculiaridades import Peculiaridades
 
 def main():
-	
-	
+
+	#Me quede en indentar codigo .. pag 41
+	Peculiaridades.sysFunction()#print(Peculiaridades.sysFunction.__doc__)
 	#Listas().ejemplo_1()
 	#Listas().por_comprension_1()
 	#Listas().por_comprension_2()
@@ -27,6 +30,7 @@ def main():
 	#print(Modulo_os.ejemplo_4())
 	#Diccionarios.ejemplo_1()
 	#Diccionarios.diccionario_pc()
+
 	pass
 
 
