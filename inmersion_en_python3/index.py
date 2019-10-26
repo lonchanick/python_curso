@@ -1,7 +1,4 @@
 
-#import os #os.system('clear')
-from ficherosDe_clases.utiles import print_titulo
-from ficherosDe_clases.listas import Listas
 """
 Es posible importar el fichero, en este caso es 'listas' (que es el nombre del fichero mas no de la funcion) 
 
@@ -10,17 +7,113 @@ from ficherosDe_clases import listas
 x = listas.Listas() #hay que instanciar un objeto antes de utilizarlo
 	x.ejemplo_1()
 """
+import os,time #os.system('clear')
+from ficherosDe_clases import utiles
+from ficherosDe_clases.utiles import print_titulo
+from ficherosDe_clases.listas import Listas
 from ficherosDe_clases.tuplas import Tuplas
 from ficherosDe_clases.conjuntos import Conjuntos
 from ficherosDe_clases.modulo_os import Modulo_os
 from ficherosDe_clases.diccionarios import Diccionarios
 from ficherosDe_clases.diccionarios import Diccionarios
 from ficherosDe_clases.peculiaridades import Peculiaridades
+from ficherosDe_clases import excepciones
+
+def menu():
+
+	op=None
+	while op!=0:
+		os.system("clear")
+		print("\tMe quede en la pagina 61: Búsqueda de valores en una lista")
+
+		mainMenu=utiles.Menu()
+		lista=["Excepciones","Tipos de datos","Numeros","Listas","Lorem Ipsum","Lorem Ipsum","",""]
+		op=mainMenu.genMenu(lista,"\t\t MENU DE COSILLAS")
+		
+		"""
+		print("\t\t MENU DE COSILLAS")
+		print("1) Excepciones")
+		print("2) Tipos de datos")
+		print("3) Numeros")
+		print("4) Listas")
+		print("5) Lorem Ipsum")
+		print("6) Lorem Ipsum")
+		print("7) Lorem Ipsum")
+		print("4) Lorem Ipsum")
+		print("4) Lorem Ipsum")
+		print("0) Salir")
+		op=int(input())
+		"""
+		
+		if op==1:
+			os.system("clear")
+			obj=utiles.Menu()
+			lista=["ValueError","ImportError"]
+			print("Menu de demostracion de errores:")
+			value=obj.genMenu(lista)
+			if value==1:
+				obj=excepciones.Excepciones()
+				obj.valueError_funcion()
+			elif value==2:
+				obj1=excepciones.Excepciones()
+				obj1.ImportError_funcion()
+		
+		elif op==2:
+			obj=utiles.Menu()
+			lista=["type(param)","isinstance(param,param2)"]
+			value=obj.genMenu(lista,"Tipos de Datos: Ejemplos")
+			if value==1:
+				Peculiaridades.tiposDe_datos()
+				input()
+			elif value==2:
+				Peculiaridades.isinstance_funcion()
+				input()
+
+		elif op==3:
+			obj=utiles.Menu()
+			lista=["Fracciones","Trignonometria"]
+			value=obj.genMenu(lista,"Numeros:")
+			if value==1:
+				Peculiaridades.funcion_fracciones()
+				input()
+			elif value==2:
+				Peculiaridades.funcion_trigonometria()
+				input()
+
+
+		elif op==4:
+			obj=utiles.Menu()
+			lista=["Metodos de agregado","Lorem Ipsum"]
+			value=obj.genMenu(lista,"Listas de objetos:")
+			if value==1:
+				Peculiaridades.funcion_listas()
+				input()
+			elif value==2:
+				pass
+			
+
+		elif op==0:
+			os.system("clear")
+			print("Saliendo...")
+			time.sleep(0.4)
+			os.system("clear")
+
+			
+			
 
 def main():
 
-	#Me quede en indentar codigo .. pag 41
-	Peculiaridades.sysFunction()#print(Peculiaridades.sysFunction.__doc__)
+	menu()
+	#print(excepciones.__name__) los modulos contienen ciertas funciones que son utiles he interesantes
+	#print(main.__name__)
+	#Peculiaridades.sysFunction()#print(Peculiaridades.sysFunction.__doc__)
+
+	"""
+	una forma de instanciar objetos
+	from ficherosDe_clases import peculiaridades
+	obj=peculiaridades.Peculiaridades()
+	obj.sysFunction()
+	"""
 	#Listas().ejemplo_1()
 	#Listas().por_comprension_1()
 	#Listas().por_comprension_2()
