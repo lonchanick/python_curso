@@ -90,7 +90,7 @@ class Peculiaridades(object):
 		print_io("","",[aux,"lista"],lista)
 		print("="*25)
 
-		lista.insert(0,"Begining")
+		lista.insert(0,"begin")
 		aux="lista.insert(0,\"begin\")"
 		print_io("","",[aux,"lista"],lista)
 		print("="*25)
@@ -115,12 +115,13 @@ class Peculiaridades(object):
 		print_io("","",inputs,newList)
 		print("="*25)
 
-
-
-
-
-
-		
-		
-
-
+	def busqueda_de_valores():
+		"""demuestra las formas de buscar elementos en una lista"""
+		os.system("clear")
+		lista=['a','b','nuevo','mpilgrim','nuevo']
+		print("<<lista=[’a’,’b’,’nuevo’,’mpilgrim’,’nuevo’] #declarando una lista warever")
+		print("<<'nuevo' in lista #preguntas si 'nuevo' esta en la lista")
+		print("<<lista.index('mpilgrim') #pregunta en que posicion se encuentra este objeto?")
+		print("<<lista.count('nuevo') #cuenta cuantas veces esta esta palabra en la lista")
+		print("<<lista.index('c') #si el objeto no se encuentra en la lista el programa termina porque se levanta una excepcion")
+		input()

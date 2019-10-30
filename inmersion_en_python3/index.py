@@ -83,13 +83,15 @@ def menu():
 
 		elif op==4:
 			obj=utiles.Menu()
-			lista=["Metodos de agregado","Lorem Ipsum"]
+			lista=["Metodos de agregado","Busqueda de valores"]
 			value=obj.genMenu(lista,"Listas de objetos:")
 			if value==1:
 				Peculiaridades.funcion_listas()
 				input()
 			elif value==2:
-				pass
+				Peculiaridades.busqueda_de_valores()
+				print(Peculiaridades.__doc__)
+				input()
 			
 
 		elif op==0:
@@ -102,8 +104,9 @@ def menu():
 			
 
 def main():
-
+	
 	menu()
+
 	#print(excepciones.__name__) los modulos contienen ciertas funciones que son utiles he interesantes
 	#print(main.__name__)
 	#Peculiaridades.sysFunction()#print(Peculiaridades.sysFunction.__doc__)
