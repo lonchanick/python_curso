@@ -27,24 +27,9 @@ def menu():
 		print("\tMe quede en la pagina 61: Búsqueda de valores en una lista")
 
 		mainMenu=utiles.Menu()
-		lista=["Excepciones","Tipos de datos","Numeros","Listas","Lorem Ipsum","Lorem Ipsum","",""]
+		lista=["Excepciones","Tipos de datos","Numeros","Listas","Tuplas","Conjuntos","Diccionarios"]
 		op=mainMenu.genMenu(lista,"\t\t MENU DE COSILLAS")
-		
-		"""
-		print("\t\t MENU DE COSILLAS")
-		print("1) Excepciones")
-		print("2) Tipos de datos")
-		print("3) Numeros")
-		print("4) Listas")
-		print("5) Lorem Ipsum")
-		print("6) Lorem Ipsum")
-		print("7) Lorem Ipsum")
-		print("4) Lorem Ipsum")
-		print("4) Lorem Ipsum")
-		print("0) Salir")
-		op=int(input())
-		"""
-		
+	
 		if op==1:
 			os.system("clear")
 			obj=utiles.Menu()
@@ -83,7 +68,7 @@ def menu():
 
 		elif op==4:
 			obj=utiles.Menu()
-			lista=["Metodos de agregado","Busqueda de valores"]
+			lista=["Metodos de agregado","Busqueda de valores","Eliminar valores"]
 			value=obj.genMenu(lista,"Listas de objetos:")
 			if value==1:
 				Peculiaridades.funcion_listas()
@@ -92,7 +77,24 @@ def menu():
 				Peculiaridades.busqueda_de_valores()
 				print(Peculiaridades.__doc__)
 				input()
-			
+			elif value==3:
+				Peculiaridades.eliminacion_de_valores()
+				input()
+
+		elif op==5:
+			obj=Tuplas()
+			obj.ejemplo_1()
+			input()
+
+		elif op==6:
+			obj=Conjuntos()
+			obj.ejemplo_1()
+			obj.operaciones()
+			input()
+
+		elif op==7:
+			print("diccionarios")
+			input()
 
 		elif op==0:
 			os.system("clear")
@@ -100,8 +102,6 @@ def menu():
 			time.sleep(0.4)
 			os.system("clear")
 
-			
-			
 
 def main():
 	

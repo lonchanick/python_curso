@@ -125,3 +125,39 @@ class Peculiaridades(object):
 		print("<<lista.count('nuevo') #cuenta cuantas veces esta esta palabra en la lista")
 		print("<<lista.index('c') #si el objeto no se encuentra en la lista el programa termina porque se levanta una excepcion")
 		input()
+
+	def eliminacion_de_valores():
+		lista=[True,False,3.1415,'Hola','Mundo']
+		print_io("lista=[True,False,3.1415,'Hola','Mundo']")
+		print(">>",end="")
+		print(lista)
+		print("<<del lista[1]")
+		del lista[1]
+		print(">>",end="")
+		print(lista)
+
+		print("="*25)
+
+		lista=[True,False,3.1415,'Hola','Mundo']
+		lista.remove('Hola')
+		print("<<lista.remove('Hola') #si intentas eliminar un elemento que no existe se levanta un error") 
+		print(">>",end="")
+		print(lista)
+
+		print("="*25)
+
+		lista=[True,False,3.1415,'Hola','Mundo']
+		lista.pop()
+		print("<<lista.pop() #Elimina el ultimo elemento de la lista") 
+		print(">>",end="")
+		print(lista)
+
+		lista.pop(1)
+		print("<<lista.pop(1) #Elimina el elemnto posicionado en el parametro pasado") 
+		print(">>",end="")
+		print(lista)
+
+
+		
+
+

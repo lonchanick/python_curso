@@ -24,3 +24,28 @@ class Tuplas(object):
 		print("print(LUNES,VIERNES,JUEVES) = ",end="")
 		(LUNES,MARTES,MIERCOLES,JUEVES,VIERNES) = range(5)
 		print(LUNES,VIERNES,JUEVES)
+
+		print("\nPara declara una tupla con almenos un elemento:\n \
+			  tupla(x,) ... la coma es necesario de lo contrario \n \
+			  le estamos indicando a python que estamos encerrando una \n \
+			  expresion en parentesis y mas nada.")
+
+		print("="*25)
+		print("La funcion tuple() toma una lista y devuelve una tupla")
+		lista=['x','y','z']
+		result=tuple(lista)
+		print("<<lista=['x','y','z']")
+		print("<<result=tuple(lista)")
+		print("<<print(result)")
+		print(">>",end="")
+		print(result,"\n")
+
+		print("="*25)
+		print("La funcion list() toma una tupla y devuelve una lista")
+		tupla=('x','y','z')
+		result=list(tupla)
+		print("<<tupla=('x','y','z')")
+		print("<<result=list(tupla)")
+		print("<<print(result)")
+		print(">>",end="")
+		print(result,"\n")
