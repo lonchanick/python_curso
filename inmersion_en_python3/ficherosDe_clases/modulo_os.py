@@ -10,8 +10,9 @@ print("\n*) COMMAND: DESCRIPTION")
 
 class Modulo_os(object):
 
-	def ejemplo_1():
+	def ejemplo_1(self):
 		import os
+		os.system('clear')
 		print("\n*) os.getcwd(): Muestra el directorio de trabajo actual")
 		print("\t<< os.getcwd()")
 		print("\t>>",os.getcwd())
@@ -40,11 +41,11 @@ class Modulo_os(object):
 		
 		
 
-	def ejemplo_2():
+	def ejemplo_2(self):
 		"""Listar directorios 3.2.3 [indice del libro]"""
 		import os
 		import glob
-
+		os.system('clear')
 		print_titulo("MODULO GLOB") 
 
 		result = glob.glob('archivos_de_muestra/*.xml')
@@ -61,7 +62,7 @@ class Modulo_os(object):
 			print("\t>> {}".format(item))
 
 
-	def ejemplo_3():
+	def ejemplo_3(self):
 		print_titulo("OBTENER METADATOS DE FICHEROS") 
 		""" obtener metadatos de ficheros [3.2.4] pag 88"""
 		import os
@@ -83,7 +84,7 @@ class Modulo_os(object):
 		print("\t<< metadata.st_size")
 		print("\t>> {}".format(metadata.st_size))
 
-	def ejemplo_4():
+	def ejemplo_4(self):
 		"""construccion de rutas absolutas PAG 89"""
 		print_titulo("CONSTRUCCION DE RUTAS ABSOLUTAS") 
 		import os
@@ -91,7 +92,7 @@ class Modulo_os(object):
 		print("\t<< os.path.realpath('archivos_de_muestra/test_file#1.xml')")
 		print("\t>> {}".format(os.path.realpath('archivos_de_muestra/test_file#1.xml')))
 
-	def ejemplo_5():
+	def ejemplo_5(self):
 		"""listas por compresion [3.3] pag 89"""
 		una_lista = [1,3,5,9]
 		print("Lista original: ", una_lista)
@@ -115,7 +116,7 @@ class Modulo_os(object):
 			kb = byte_size/1024
 			print(x," ->{} BYTES ->{} KB".format(byte_size,kb))
 
-	def ejemplo_6():
+	def ejemplo_6(self):
 		"""diccionarios por compresion"""
 		#pendiente 21 / 06 / 2019
 		pass

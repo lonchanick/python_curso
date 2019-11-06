@@ -91,3 +91,7 @@ class Conjuntos(object):
 
 		conjunto_4.issuperset(conjunto_3)
 		print("Conjunto #4 es super-conjunto de Conjunto #3? ",conjunto_4.issuperset(conjunto_3))
+
+		print("Para desclara un cojunto vacio se usa la siguiente notacion")
+		print("un_conjunto=set()")
+

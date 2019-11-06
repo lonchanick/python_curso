@@ -15,7 +15,6 @@ from ficherosDe_clases.tuplas import Tuplas
 from ficherosDe_clases.conjuntos import Conjuntos
 from ficherosDe_clases.modulo_os import Modulo_os
 from ficherosDe_clases.diccionarios import Diccionarios
-from ficherosDe_clases.diccionarios import Diccionarios
 from ficherosDe_clases.peculiaridades import Peculiaridades
 from ficherosDe_clases import excepciones
 
@@ -27,7 +26,8 @@ def menu():
 		print("\tMe quede en la pagina 61: Búsqueda de valores en una lista")
 
 		mainMenu=utiles.Menu()
-		lista=["Excepciones","Tipos de datos","Numeros","Listas","Tuplas","Conjuntos","Diccionarios"]
+		lista=["Excepciones","Tipos de datos","Numeros","Listas"
+		,"Tuplas","Conjuntos","Diccionarios","Modulo os","modulo glob"]
 		op=mainMenu.genMenu(lista,"\t\t MENU DE COSILLAS")
 	
 		if op==1:
@@ -93,7 +93,21 @@ def menu():
 			input()
 
 		elif op==7:
-			print("diccionarios")
+			obj=Diccionarios()
+			obj.ejemplo_1()
+			obj.diccionario_pc()
+			input()
+
+		elif op==8:
+			obj=Modulo_os()
+			obj.ejemplo_1()
+			input()
+
+		elif op==9:
+			obj=Modulo_os()
+			obj.ejemplo_2()
+			obj.ejemplo_3()
+			obj.ejemplo_4()
 			input()
 
 		elif op==0:
