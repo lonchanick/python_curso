@@ -119,7 +119,13 @@ def menu():
 
 def main():
 	
-	menu()
+	#menu()
+	import os,glob
+	busqueda = glob.glob('archivos_de_muestra/*.*')
+	item=busqueda[0]
+	print(item)
+	x=os.stat(item)
+	list(x.keys())
 
 	#print(excepciones.__name__) los modulos contienen ciertas funciones que son utiles he interesantes
 	#print(main.__name__)
