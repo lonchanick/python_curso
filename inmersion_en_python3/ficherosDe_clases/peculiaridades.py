@@ -157,6 +157,12 @@ class Peculiaridades(object):
 		print(">>",end="")
 		print(lista)
 
+	def cosas_interesantes():
+		print("¿Como formatear valores decimales en una cadena?")
+		pi=3.141516
+		print_io("pi=3.141516 #nuestro numero a redondear")
+		print(">> Este es pi: {0:.2f} redondeado a dos decimales".format(pi))
+
 
 		
 

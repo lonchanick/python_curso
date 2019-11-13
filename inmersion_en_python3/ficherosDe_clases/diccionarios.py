@@ -2,10 +2,10 @@ class Diccionarios(object):
 	"""Diccionarios por compresion [3.2] pag 92"""
 	def ejemplo_1(self):
 		import os, glob
-		metadata = [(item, os.stat(item)) for item in glob.glob('archivos_de_muestra/*copy*.xml')]
+		metadata = [(item, os.stat(item)) for item in glob.glob('archivos_de_muestra/*.xml')]
 		print(metadata [0])
 
-		metadata_dict = {item : os.stat(item) for item in glob.glob('archivos_de_muestra/*copy*.xml')}
+		metadata_dict = {item : os.stat(item) for item in glob.glob('archivos_de_muestra/*.xml')}
 		print(type(metadata_dict))
 		for x in list(metadata_dict.keys()):
 			print(x)

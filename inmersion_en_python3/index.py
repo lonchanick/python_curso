@@ -27,7 +27,8 @@ def menu():
 
 		mainMenu=utiles.Menu()
 		lista=["Excepciones","Tipos de datos","Numeros","Listas"
-		,"Tuplas","Conjuntos","Diccionarios","Modulo os","modulo glob"]
+		,"Tuplas","Conjuntos","Diccionarios","Modulo os","modulo glob"
+		,"COSAS INTERESANTES"]
 		op=mainMenu.genMenu(lista,"\t\t MENU DE COSILLAS")
 	
 		if op==1:
@@ -110,6 +111,10 @@ def menu():
 			obj.ejemplo_4()
 			input()
 
+		elif op==10:
+			Peculiaridades.cosas_interesantes()
+			input()
+
 		elif op==0:
 			os.system("clear")
 			print("Saliendo...")
@@ -118,14 +123,31 @@ def menu():
 
 
 def main():
-	
 	#menu()
-	import os,glob
-	busqueda = glob.glob('archivos_de_muestra/*.*')
-	item=busqueda[0]
-	print(item)
-	x=os.stat(item)
-	list(x.keys())
+	print('Me quede en "Troceando cadenas pg 108'.upper())
+	input()
+
+	"""
+	x="hola;ccccccc"
+	r=x.split(';')
+	print(r)
+
+	"""
+	"""
+	lista=["hola;ccccccc;warever","nombre;Israel","Apellido;Arroyo"]
+	r=[v.split(';',1) for v in lista]
+		
+	print(r)
+	dix=dict(r)
+	print(dix)
+	"""
+	
+	"""
+	dix={(
+		'Diego','Arroyo','10/08/1991'):"Ud es el el Sr. Arroyo, vive en las palas etc..",
+		3.1415:"este es el numero piriñoña"}
+	print(dix[3.1415])
+	"""
 
 	#print(excepciones.__name__) los modulos contienen ciertas funciones que son utiles he interesantes
 	#print(main.__name__)
