@@ -23,12 +23,11 @@ def menu():
 	op=None
 	while op!=0:
 		os.system("clear")
-		print("\tMe quede en la pagina 61: Búsqueda de valores en una lista")
 
 		mainMenu=utiles.Menu()
 		lista=["Excepciones","Tipos de datos","Numeros","Listas"
 		,"Tuplas","Conjuntos","Diccionarios","Modulo os","modulo glob"
-		,"COSAS INTERESANTES"]
+		,"COSAS INTERESANTES","Ex-Regulares"]
 		op=mainMenu.genMenu(lista,"\t\t MENU DE COSILLAS")
 	
 		if op==1:
@@ -115,6 +114,10 @@ def menu():
 			Peculiaridades.cosas_interesantes()
 			input()
 
+		elif op==11:
+			Peculiaridades.ex_regulares()
+			input()
+
 		elif op==0:
 			os.system("clear")
 			print("Saliendo...")
@@ -123,53 +126,9 @@ def menu():
 
 
 def main():
-	#menu()
-	print('Me quede en "Troceando cadenas pg 108'.upper())
-	input()
+	menu()
 
-	"""
-	x="hola;ccccccc"
-	r=x.split(';')
-	print(r)
-
-	"""
-	"""
-	lista=["hola;ccccccc;warever","nombre;Israel","Apellido;Arroyo"]
-	r=[v.split(';',1) for v in lista]
-		
-	print(r)
-	dix=dict(r)
-	print(dix)
-	"""
 	
-	"""
-	dix={(
-		'Diego','Arroyo','10/08/1991'):"Ud es el el Sr. Arroyo, vive en las palas etc..",
-		3.1415:"este es el numero piriñoña"}
-	print(dix[3.1415])
-	"""
-
-	#print(excepciones.__name__) los modulos contienen ciertas funciones que son utiles he interesantes
-	#print(main.__name__)
-	#Peculiaridades.sysFunction()#print(Peculiaridades.sysFunction.__doc__)
-
-	"""
-	una forma de instanciar objetos
-	from ficherosDe_clases import peculiaridades
-	obj=peculiaridades.Peculiaridades()
-	obj.sysFunction()
-	"""
-	#Listas().ejemplo_1()
-	#Listas().por_comprension_1()
-	#Listas().por_comprension_2()
-	#Tuplas().ejemplo_1()
-	#Conjuntos().ejemplo_1()
-	#Modulo_os.ejemplo_5()
-	#print(Modulo_os.ejemplo_4())
-	#Diccionarios.ejemplo_1()
-	#Diccionarios.diccionario_pc()
-
-	pass
 
 
 if __name__ == "__main__":

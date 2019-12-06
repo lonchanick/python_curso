@@ -164,6 +164,14 @@ class Peculiaridades(object):
 		print(">> Este es pi: {0:.2f} redondeado a dos decimales".format(pi))
 
 
+	def ex_regulares():
+		import re
+		print('\tBusque y remplace donde se encuentre la palabra WAREVER .. Exactamente la plabra en si')
+		c="este es un texto WAREVER con proposito deWAREVER prueba WAREVER"
+		print("ORIGINAL: ",c)
+		print("EXPRESION REGULAR: ","re.sub(r\"\\bWAREVER\\b\",\"XXXXXXX\",CADENA ORIGINAL)")
+		resultado = re.sub(r'\bWAREVER\b',"XXXXXXX",c)
+		print ("RESULTADO: ",resultado)
 		
 
 
