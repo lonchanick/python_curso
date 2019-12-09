@@ -18,3 +18,29 @@ def odd_or_even():
 		print('Odd')
 	else:
 		print('Even')
+
+def les_than():
+	import random
+	num=int(input('Please type a num: '))
+	lista=[random.randint(0,101) for item in range(100)]
+	#print(lista)
+	#lista=
+	result = [item for item in lista if item == num]
+	print(result)
+
+def divisors():
+	num=int(input('Please type a num: '))
+	loop=True
+	div=2
+	result=[]
+
+	while loop:
+		if num%div == 0:
+			result.append(div)
+
+		div+=1
+		if div>num:
+			print(result)
+			loop=False
+
+
