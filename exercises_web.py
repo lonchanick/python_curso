@@ -43,4 +43,37 @@ def divisors():
 			print(result)
 			loop=False
 
+def ListOverlap():
+	"""
+	esta funcion saca solo los elementos que se contienen en amabas listas
+	"""
+	"""
+	import random
+	a = [random.randint(0,101) for item in range(50)]
+	b = [random.randint(0,101) for item in range(50)]
+	result=(set(a).intersection(set(b)))
+	print(result)
+	"""
 
+	"""
+	esta funcion saca solo los elementos que se contienen en amabas listas
+	"""
+	import random
+	result=[]
+	a = [random.randint(0,101) for item in range(10)]
+	b = [random.randint(0,101) for item in range(10)]
+	print(a,"\n",b)
+
+	result=[item for item in a if item in b]
+	print(result)
+
+
+
+def main():
+	ListOverlap()
+
+	
+
+
+if __name__ == "__main__":
+	main()

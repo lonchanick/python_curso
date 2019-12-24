@@ -174,4 +174,19 @@ class Peculiaridades(object):
 		print ("RESULTADO: ",resultado)
 		
 
+class Generadores():
+	"""docstring for Generadores"""
+	def make_counter(x):
+		print("entrando en make_counter")
+		while True:
+			yield x
+			print("incrementando x")
+			x=x+1
 
+	counter=make_counter(2)
+	print(counter)
+	for x in range(0,10):
+		print(next(counter))
+		input()
+	
+			
