@@ -182,11 +182,41 @@ class Generadores():
 			yield x
 			print("incrementando x")
 			x=x+1
-
+	"""
 	counter=make_counter(2)
 	print(counter)
 	for x in range(0,10):
 		print(next(counter))
 		input()
+	"""
+
+class Closures(object):
+	"""docstring for closures"""
+	def names(param):
+		def fun(x):
+			return "{}, {}".format(x,param)
+
+		return fun
+
+class Excepciones(object):
+	"""docstring for Excepciones"""
+	def __init__(self, arg):
+		super(excepciones, self).__init__()
+		self.arg = arg
+
+	def exe():
+		import sys
+		lista=[1,2,5,0,'1',10,20]
+
+		for item in lista:
+			try:
+				r=10/item
+				print('10/{}: {}'.format(item,r))
+				#break
+			except:
+				#print("Error en este punto")
+				print("10/{} (Error: {} - {})".format(item,sys.exc_info()[0],type(item)))
+		
+
 	
 			

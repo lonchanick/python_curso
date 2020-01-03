@@ -8,8 +8,11 @@
 #print(x)
 
 
-from ficherosDe_clases import peculiaridades
-peculiaridades.Generadores()
+#from ficherosDe_clases import peculiaridades
+#peculiaridades.Generadores()
 
+from ficherosDe_clases.peculiaridades import Excepciones
+obj=Excepciones
+obj.exe()
 
 

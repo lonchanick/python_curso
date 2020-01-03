@@ -15,7 +15,7 @@ from ficherosDe_clases.tuplas import Tuplas
 from ficherosDe_clases.conjuntos import Conjuntos
 from ficherosDe_clases.modulo_os import Modulo_os
 from ficherosDe_clases.diccionarios import Diccionarios
-from ficherosDe_clases.peculiaridades import Peculiaridades
+from ficherosDe_clases.peculiaridades import Peculiaridades,Closures
 from ficherosDe_clases import excepciones
 
 def menu():
@@ -112,6 +112,10 @@ def menu():
 
 		elif op==10:
 			Peculiaridades.cosas_interesantes()
+			print("***************")
+			print("CLOSURES")
+			obj=Closures.names("Arroyo")
+			print(obj("Carlos"))
 			input()
 
 		elif op==11:
