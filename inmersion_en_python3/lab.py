@@ -39,6 +39,12 @@ class Persona():
 
 def main():
 	Persona().autoCall()
+	"""num=0
+				string=["Hola ","mundo","como","estas_   "]
+				for x in string:
+					num+=1
+					x=x.rstrip()
+					print("{:>4} {} {}".format(num,x,len(x)))"""
 	
 
 if __name__=="__main__":

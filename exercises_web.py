@@ -1,3 +1,12 @@
+import time,os,random
+
+def visaje():
+	#esta wea no sirve
+	for x in range(0,3):
+		print(".",end="")
+		time.sleep(0.3)
+
+
 def character_input():
 	import datetime
 	now=datetime.datetime.now()
@@ -68,11 +77,59 @@ def ListOverlap():
 	print(result)
 
 
+def palindromo(param):
+		if len(param)<1:
+			return("palabra no valida")
+		else:
+			rev=''.join(reversed(param))
+			if(rev != param):
+				print(rev," != ", param)
+				return "No es palindromo"
+			else:
+				print(rev," == ", param)
+				return "Si es palindromo"
+
+
+#EXERCISE 7: LIST COMPRENHENSIONS
+def exercise7():
+	import random
+	lista=[random.randint(0,101) for x in range(10)]
+	print("before",lista)
+	r=[x for x in lista if x%2 == 0]
+	print("after",r)
+
+def exercise8():
+	pass
+
+def exercise9():
+	tryed=0
+	num=random.randint(0,10)
+
+	while True:
+		tryed+=1
+		iu=int(input("Guess the number: "))
+		print(num)
+		if iu==num:
+			os.system('clear')
+			print("Right! You win!")
+			print("Attempts number: {}".format(tryed),end="")
+			op=str(input("\nSalir [x] Keep playing [p]: "))
+			if op=='x':
+				break
+			elif op=='p':
+				os.system('clear')
+				exercise9()
+		elif(iu<num):
+			print("Too low! Try again")
+		else:
+			print("Too hight! Try again")
+
+
+		
 
 def main():
-	ListOverlap()
-
-	
+	exercise9()
+	#visaje()
 
 
 if __name__ == "__main__":
