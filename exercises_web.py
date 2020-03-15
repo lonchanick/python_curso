@@ -124,12 +124,52 @@ def exercise9():
 		else:
 			print("Too hight! Try again")
 
+def exercise10():
+	#Primero se genera un tipo de lista con tamaño y elementos aleatorios
+	#Luego se genera una lista de listas del tipo antes mencionado
+	listas=[[],[]]
+	listas[0]=[random.randint(0,101) for x in range(random.randint(5,14))]
+	listas[1]=[random.randint(0,101) for x in range(random.randint(5,14))]
 
+	print("   Figure out commons elements")
+	
+	#imprime el tamano y el contenido
+	for x in listas:
+		print("Size: {} Content: {}".format(len(x),x))
+
+	#genera he imprime los elementos comunes en cada lista
+	x=set(listas[0])
+	y=set(listas[1])
+	r=x.intersection(y)
+	r=list(r)
+	print("Resultado: ",r)
+
+def exercise11():
+	pass
+
+def exercise12():
+	lista=[random.randint(0,101) for x in range(10)]
+	new_list=[]
+	new_list.append(lista[0])
+	new_list.append(lista[len(lista)-1])
+	print("Lista actual",lista)
+	print("Nueva lista",new_list)
+
+
+def exercise13():
+	"""Esta funcion de fibonacci esta mal (no se que es fibonacci, chao"""
+	x=int(input("How many numbers would you like?"))
+	a,b=0,1
+	for i in range(x):
+		print(a+b)
+		a=b
+		b=b+1
 		
 
 def main():
-	exercise9()
+	#exercise9()
 	#visaje()
+	exercise13()
 
 
 if __name__ == "__main__":

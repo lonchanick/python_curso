@@ -15,7 +15,7 @@
 #Excepciones.exe() # just call the class method
 
 #TRABAJANDO CON CLASES
-class Persona():
+class Persona(object):
 	"""sirver para comprender la funcionalidades de la clases en python"""
 	def __init__(self, n="default_name", e="default_age"):
 		self.nombre=n
