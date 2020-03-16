@@ -166,10 +166,41 @@ def exercise13():
 		b=b+1
 		
 
+def exercise14(param):
+	if param==1:
+		'''
+		esta solucion emplea conjuntos
+		los conjuntos no contienen elementos repetidos
+		'''
+		lista=[random.randint(0,101) for x in range(20)]
+		print("lista:",lista)
+		print("conjunto",set(lista))
+		#from inmersion_en_python3.ficherosDe_clases.conjuntos import Conjuntos
+		#Conjuntos.operaciones()
+	elif param==2:
+		"""solucion dos"""
+		lista=[random.randint(0,101) for x in range(20)]
+		print("lista: ",lista)
+
+		contenedor=[]
+		duplicados=[]
+
+		for x in lista:
+			if x not in contenedor:
+				contenedor.append(x)
+			else:
+				duplicados.append(x)
+
+		print("resul: ",contenedor)
+		print("duplicados: ",duplicados)
+	else:
+		print("La solucion que has pedido no exite mira el numero que pasaste como parametro")
+
 def main():
 	#exercise9()
 	#visaje()
-	exercise13()
+	#exercise13()
+	exercise14(1)
 
 
 if __name__ == "__main__":

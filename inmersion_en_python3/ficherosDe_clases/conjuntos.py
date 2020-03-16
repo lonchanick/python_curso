@@ -1,4 +1,4 @@
-from ficherosDe_clases.utiles import print_titulo
+#from ficherosDe_clases.utiles import print_titulo
 
 
 class Conjuntos(object):
@@ -55,7 +55,7 @@ class Conjuntos(object):
 		result = conjunto_1.intersection(conjunto_2)
 		
 		"""
-	def operaciones(self):
+	def operaciones():
 		comprobador = {1,2,3,4,5,6, 3.1415}
 		conjunto_1 = {1,3,5, 3.1415}
 		conjunto_2 = {2,4,6, 3.1415}
