@@ -66,9 +66,12 @@ def lab():
 
 
 def main():
-	lab()
-	#f2()
-	#Ejem_varios.f1()
+	lista=[1,8,9,10]
+
+	for n in lista[:]:
+		if(n>8):
+			lista.append(n)
+		print(lista,end="\n")
 
 if __name__=="__main__":
 	main()

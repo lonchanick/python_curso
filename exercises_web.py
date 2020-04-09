@@ -196,12 +196,79 @@ def exercise14(param):
 	else:
 		print("La solucion que has pedido no exite mira el numero que pasaste como parametro")
 
-def main():
-	#exercise9()
-	#visaje()
-	#exercise13()
-	exercise14(1)
+def exercise15():
+	#inp=input("Give me a sentence")
+	inp="hola mundo como estas"
+	sp=inp.split()
+	size=len(sp)
 
+	for x in range (0,size):
+		size-=1
+		print(sp[size],end=" ")
+
+def exercise16():
+	print("======== PASSWORD GENERATOR ===========")
+	#size=input("Ingresa la longitud del password: ")
+
+	import random
+	import string
+
+	def randomString(stringLength=10):
+	    """Generate a random string of fixed length """
+	    letters = string.ascii_lowercase
+	    return ''.join(random.choice(letters) for i in range(stringLength))
+
+	print ("Random String is ", randomString() )
+	print ("Random String is ", randomString(10) )
+	print ("Random String is ", randomString(10) )
+	
+def exercise17():
+	"""
+	import requests
+	from bs4 import BeautifulSoup
+	
+
+	r=requests.get('https://www.nytimes.com/')
+	content=r.text
+	"""
+
+def exercise20():
+	
+	lista=[random.randint(0,101) for x in range(10)]
+	print("Lista: ",lista)
+	num=int(input("Num? "))
+	elem_no_encont=True
+	iterc=0
+	for x in lista:
+		print("iteracion #",iterc)
+		if num==x:
+			print("Elemento encontrado")
+			elem_no_encont=False
+			break
+		iterc+=1
+
+	if elem_no_encont:
+		print("Elemento no encontrado")
+
+def exercise21():
+	import os.path
+	path_to_write='/home/israel/DEV/python_cursos/warever/'
+	file_name='warever'
+	file=os.path.join(path_to_write,file_name+".txt")
+
+	with open(file,'w') as my_file:
+		my_file.write('primero archivo escrito con python coño\n'*20)
+		my_file.close()
+	
+def main():
+	#exercise21()
+	#visaje()
+	import os
+	#x=os.path.abspath(__file__)
+	#print(type(x),x)
+	y=os.path.dirname(os.path.abspath(__file__))
+	print(type(y),y)
+	#print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 if __name__ == "__main__":
 	main()
