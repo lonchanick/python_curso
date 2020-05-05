@@ -66,12 +66,10 @@ def lab():
 
 
 def main():
-	lista=[1,8,9,10]
-
-	for n in lista[:]:
-		if(n>8):
-			lista.append(n)
-		print(lista,end="\n")
+	c="\"\"\"Hola mundo como estas este es un texto de ejemoplo para.\"\"\""
+	print(c)
+	r=c[3:-3]
+	print(r)
 
 if __name__=="__main__":
 	main()

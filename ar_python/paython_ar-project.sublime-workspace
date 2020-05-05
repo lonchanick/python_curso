@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"arg",
+				"arg_2"
+			],
+			[
+				"tras",
+				"traspuesta"
+			],
+			[
+				"tra",
+				"traspuesta"
+			],
+			[
+				"fila",
+				"fila_traspuesta"
+			],
+			[
 				"curio",
 				"curious_fact_2"
 			],
@@ -495,7 +511,7 @@
 			"file": "python_ar.py",
 			"settings":
 			{
-				"buffer_size": 1901,
+				"buffer_size": 3068,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -748,15 +764,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1901,
+						"buffer_size": 3068,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1820,
-								1820
+								3019,
+								3019
 							]
 						],
 						"settings":
@@ -765,7 +781,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1254.0,
+						"translation.y": 2508.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -807,7 +823,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 151.0
+		"height": 137.0
 	},
 	"output.find_results":
 	{

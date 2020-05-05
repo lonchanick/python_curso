@@ -36,7 +36,7 @@ def curious_fact_3():
 	funtion_1(*arg_1)
 	funtion_1(**arg_2)
 
-class for__(object):
+class For__(object):
 	"""\
 	Aqui estan todos los datos curiosos respecto al bucle FOR
 	DC = Dato Curioso
@@ -111,19 +111,26 @@ class for__(object):
 		print(traspuesta_metodo_2(vec))
 		print(traspuesta_metodo_3(vec))
 
-
+class Dict__(object):
+	"""/
+	Aqui estan todos los datos curiosos respecto al los diccionarios
+	DC = Dato Curioso
+	"""
+	def dc_1():
+		#se pueden transformar argumentos a un diccionario de esta forma
+		d = dict(sape=4139, guido=4127, jack=4098)
+		print(d)
+		
 
 def main():
 	#print(curious_fact_1.__doc__) #muestra el doc de la funcion, si es que lo tiene
 	#print(for__.dc_1.__doc__) #muestra la documentacion de una funcion interna
-	#for__.dc_5()
+	#For__.dc_5()
 	#curious_fact_3()
-
-
-
-	l = [1,2,3,4,5,6]
-	del l[1:4]
-	print(l)
+	#Dict__.dc_1()
+	l=[1,2,3]
+	print(type(l))
+	print(type(set(l)))
 
 if __name__ == "__main__":
 	main()
