@@ -66,10 +66,11 @@ def lab():
 
 
 def main():
-	c="\"\"\"Hola mundo como estas este es un texto de ejemoplo para.\"\"\""
-	print(c)
-	r=c[3:-3]
-	print(r)
+	cad="Israel"
+	if cad:
+		print("True")
+	else:
+		print("False")
 
 if __name__=="__main__":
 	main()

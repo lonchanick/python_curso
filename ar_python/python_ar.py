@@ -2,6 +2,7 @@
 
 import random
 
+
 def curious_fact_1():
 	"""\
 	Las rebanadas "[:]" sirven para crear una copia
@@ -120,7 +121,78 @@ class Dict__(object):
 		#se pueden transformar argumentos a un diccionario de esta forma
 		d = dict(sape=4139, guido=4127, jack=4098)
 		print(d)
-		
+
+class Files__(object):
+	"""/
+	trabajando con archivos
+	DC = Dato Curioso
+	"""
+	def dc_1():
+		#se pueden transformar argumentos a un diccionario de esta forma
+		f=open('lab.txt','rb+')
+		f.write(b'0123456789abcdef')
+		print(f.seek(5))
+		print(f.read(1))
+		print(f.seek(-3,2))
+		print(f.read(1))
+
+
+def curious_fact_varios():
+	#comparacin de secuencias
+	#r = (1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)
+
+	"""
+	#Justifica valores con rjust(param)
+	for x in range(1, 11):
+		print(repr(x).rjust(2), repr(x * x).rjust(3), end='<->')
+		# notar el uso de 'end' en la linea anterior
+		print(repr(x * x * x).rjust(4))
+	
+	#otra forma de hacer la misma operacion de arriba
+	for x in range(1,11):
+		print('{0:2d} {1:3d} {2:4d}'.format(x, x * x, x * x * x))
+	
+	"""
+	"""
+	#formateo de decimales
+	import math
+	print("Pi redondeado es: {0:.4f}_".format(math.pi))
+	"""
+
+	#formateo de cadenas
+	#-> Argumentos nombrados
+	def ejercicio_1():
+		d={
+			'lunes':1,
+			'martes':2,
+			'miercoles______ex':3,
+			'jueves':4,
+			'viernes':5,
+			'sabado________ex':6,
+			'domingo____ex':7
+		}
+
+		for k,v in d.items():
+			if(len(k)>9):
+				k=k[0:9]
+			print('{0:9} <==> {1}'.format(k,v))
+
+		r=vars()
+		print(r)
+
+
+	ejercicio_1()
+
+	"""
+	print("Esta(e) {objeto} esta {adjetivo}".format(objeto:"casa",adjetivo="Bonita"))
+	print("La historia de {0},{1} y {aux}".format(
+												  "Ravi",
+												  "Zacharias",
+												  aux="Pandemonium"))
+	"""												  
+
+
+
 
 def main():
 	#print(curious_fact_1.__doc__) #muestra el doc de la funcion, si es que lo tiene
@@ -128,9 +200,11 @@ def main():
 	#For__.dc_5()
 	#curious_fact_3()
 	#Dict__.dc_1()
-	l=[1,2,3]
-	print(type(l))
-	print(type(set(l)))
+	#curious_fact_varios()
+	Files__.dc_1()
+
+	pass
+	
 
 if __name__ == "__main__":
 	main()
