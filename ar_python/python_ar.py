@@ -128,7 +128,7 @@ class Files__(object):
 	DC = Dato Curioso
 	"""
 	def dc_1():
-		#se pueden transformar argumentos a un diccionario de esta forma
+		#manipuladno un ficheron con seek y read
 		f=open('lab.txt','rb+')
 		f.write(b'0123456789abcdef')
 		print(f.seek(5))
@@ -136,6 +136,32 @@ class Files__(object):
 		print(f.seek(-3,2))
 		print(f.read(1))
 
+	def dc_2():
+		#Abre un archivo
+		with open('credo.txt') as f:
+				file=list(f)
+				print(file[0])
+
+	def dc_3():
+		#Todo archivo abierto tiene un puntero que puede ser manipulado con las funciones
+		#seek y tell
+		with open('credo.txt') as f:
+			print(f.tell())#Nos dice donde esta el puntero para manipular el archivo
+			print(f.readline())#Muestra la linea completa
+			f.seek(22)#Mueve el puntero al elemento 22 (Cuidado cuando sea un file binario)
+			print(f.tell())#Nos indica la posicion actual del puntero
+			print(f.readline())#Muestra segun a donde este apuntando el puntero
+
+			"""
+			#esto deberia funcionar solo con archivos binarios no con tipo texto
+			#El puntero puede ser desplazado desde una "posicion relativa"
+			# 1 -> indica que la posicion "relativa" será la posicion "actual" del puntero
+			# 2 -> indice que la posición relativa será el fin del archivo
+			# 0 -> indica el inicio del archivo, por defecto esta es dejada si el campo esta vacio
+
+			f.seek(26,1)
+			print(f.readline())
+			"""
 
 def curious_fact_varios():
 	#comparacin de secuencias
@@ -159,9 +185,9 @@ def curious_fact_varios():
 	print("Pi redondeado es: {0:.4f}_".format(math.pi))
 	"""
 
-	#formateo de cadenas
-	#-> Argumentos nombrados
 	def ejercicio_1():
+	#-> Argumentos nombrados
+	#formateo de cadenas
 		d={
 			'lunes':1,
 			'martes':2,
@@ -181,8 +207,6 @@ def curious_fact_varios():
 		print(r)
 
 
-	ejercicio_1()
-
 	"""
 	print("Esta(e) {objeto} esta {adjetivo}".format(objeto:"casa",adjetivo="Bonita"))
 	print("La historia de {0},{1} y {aux}".format(
@@ -201,9 +225,26 @@ def main():
 	#curious_fact_3()
 	#Dict__.dc_1()
 	#curious_fact_varios()
-	Files__.dc_1()
+	#Files__.dc_1()
 
-	pass
+	# while True:
+	# 	try:
+	# 		x=int(input("Solo numeros: "))
+	# 		break
+	# 	except ValueError:
+	# 		print("Error")
+	class Xxx(object):
+		
+		def __init__(self, nombre,apellido):
+			self.nombre=nombre
+			self.apellido=apellido
+
+		def __str__():
+			return "clase tipo Xxx"
+
+	
+
+			
 	
 
 if __name__ == "__main__":
