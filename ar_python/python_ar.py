@@ -163,29 +163,32 @@ class Files__(object):
 			print(f.readline())
 			"""
 
-def curious_fact_varios():
-	#comparacin de secuencias
-	#r = (1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)
+		
+class curious_fact_varios(object):
 
-	"""
-	#Justifica valores con rjust(param)
-	for x in range(1, 11):
-		print(repr(x).rjust(2), repr(x * x).rjust(3), end='<->')
-		# notar el uso de 'end' en la linea anterior
-		print(repr(x * x * x).rjust(4))
-	
-	#otra forma de hacer la misma operacion de arriba
-	for x in range(1,11):
-		print('{0:2d} {1:3d} {2:4d}'.format(x, x * x, x * x * x))
-	
-	"""
-	"""
-	#formateo de decimales
-	import math
-	print("Pi redondeado es: {0:.4f}_".format(math.pi))
-	"""
+	def ejemplo_2():
+		#comparacin de secuencias
+		r = (1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)
+		print(r)
 
-	def ejercicio_1():
+	def ejemplo_3():
+		#Justifica valores con rjust(param)
+		for x in range(1, 11):
+			print(repr(x).rjust(2), repr(x * x).rjust(3), end='<->')
+			# notar el uso de 'end' en la linea anterior
+			print(repr(x * x * x).rjust(4))
+		
+		#otra forma de hacer la misma operacion de arriba
+		print('\notra forma de hacer la misma operacion de arriba')
+		for x in range(1,11):
+			print('{0:2d} {1:3d} {2:4d}'.format(x, x * x, x * x * x))
+		
+	def ejemplo_4():
+		#formateo de decimales
+		import math
+		print("Pi redondeado es: {0:.4f}_".format(math.pi))
+
+	def ejemplo_1():
 	#-> Argumentos nombrados
 	#formateo de cadenas
 		d={
@@ -206,17 +209,13 @@ def curious_fact_varios():
 		r=vars()
 		print(r)
 
-
-	"""
-	print("Esta(e) {objeto} esta {adjetivo}".format(objeto:"casa",adjetivo="Bonita"))
-	print("La historia de {0},{1} y {aux}".format(
+	def ejemplo_5():
+		#Mas ejemplos de formateo de cadenas
+		print("Esta(e) {objeto} esta {adjetivo}".format(objeto="casa",adjetivo="Bonita"))
+		print("La historia de {0},{1} y {aux}".format(
 												  "Ravi",
 												  "Zacharias",
 												  aux="Pandemonium"))
-	"""												  
-
-
-
 
 def main():
 	#print(curious_fact_1.__doc__) #muestra el doc de la funcion, si es que lo tiene
@@ -224,25 +223,9 @@ def main():
 	#For__.dc_5()
 	#curious_fact_3()
 	#Dict__.dc_1()
-	#curious_fact_varios()
+	curious_fact_varios.ejemplo_3()
 	#Files__.dc_1()
-
-	# while True:
-	# 	try:
-	# 		x=int(input("Solo numeros: "))
-	# 		break
-	# 	except ValueError:
-	# 		print("Error")
-	class Xxx(object):
-		
-		def __init__(self, nombre,apellido):
-			self.nombre=nombre
-			self.apellido=apellido
-
-		def __str__():
-			return "clase tipo Xxx"
-
-	
+	pass	
 
 			
 	
