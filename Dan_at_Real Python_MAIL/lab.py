@@ -20,9 +20,30 @@ class Argument_unpacking(object):
 	def __str__(self):
 		return "Desempaquetado de argumentos"
 
+class Swap_values(object):
+	'''como intercambiar valores de manera practica'''
+	def exe():
+		a=100
+		b=500
+
+		#common way		
+		temp=a
+		a=b
+		b=temp
+		print("Common way: ",a,b)
+
+		#short-hand way
+		a=100
+		b=500
+		a,b=b,a
+		print("Short-hand way: ",a,b)
+
+
+
 
 def main():
 	#Argument_unpacking().exe()
+	#Swap_values.exe()
 
 if __name__ == '__main__':
 	main()
