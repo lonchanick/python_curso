@@ -1,0 +1,856 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"auto_now_add"
+			],
+			[
+				"me",
+				"method\tAttr"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"wid",
+				"width\tAttr"
+			],
+			[
+				"MEDIA",
+				"MEDIA_DIR"
+			],
+			[
+				"STATIC",
+				"STATIC_DIR"
+			],
+			[
+				"co",
+				"comment_text"
+			],
+			[
+				"rango",
+				"rango_v"
+			],
+			[
+				"TEMPLATES_",
+				"TEMPLATES_DIR"
+			],
+			[
+				"vi",
+				"views"
+			],
+			[
+				"spa",
+				"span\tTag"
+			],
+			[
+				"Question",
+				"QuestionAdmin"
+			],
+			[
+				"conte",
+				"context_object_name"
+			],
+			[
+				"op",
+				"op_id"
+			],
+			[
+				"question",
+				"question_startswith"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"ques",
+				"question_id"
+			],
+			[
+				"choice",
+				"choice_text"
+			],
+			[
+				"category",
+				"category_name_slug"
+			],
+			[
+				"cate",
+				"category_name_slug"
+			],
+			[
+				"Catego",
+				"CategotyForm"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
+				"djan",
+				"django_pages"
+			],
+			[
+				"cat",
+				"cat_data"
+			],
+			[
+				"python",
+				"python_pages"
+			],
+			[
+				"re",
+				"resultados"
+			],
+			[
+				"get",
+				"getNumber"
+			],
+			[
+				"input",
+				"inputNumber"
+			],
+			[
+				"x",
+				"Xxx"
+			],
+			[
+				"cur",
+				"curious_fact_1"
+			],
+			[
+				"publi",
+				"published_date"
+			],
+			[
+				"Date",
+				"DATETIME_FORMAT"
+			],
+			[
+				"Fore",
+				"unique_for_date"
+			],
+			[
+				"path",
+				"path_to_write"
+			],
+			[
+				"elem",
+				"elem_no_encont"
+			],
+			[
+				"custom-con",
+				"custom-control-input"
+			],
+			[
+				"che",
+				"chexb2"
+			],
+			[
+				"ch",
+				"chexb"
+			],
+			[
+				"custom-cont",
+				"custom-control-label"
+			],
+			[
+				"togSw",
+				"togSwit1"
+			],
+			[
+				"custom-control-",
+				"custom-control-input"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"custom-control",
+				"custom-control-inline"
+			],
+			[
+				"cus",
+				"cusCont"
+			],
+			[
+				"__",
+				"__iter__"
+			],
+			[
+				"ne",
+				"__next__"
+			],
+			[
+				"Eje",
+				"Ejem_de_def_de_clase"
+			],
+			[
+				"enu",
+				"enum"
+			],
+			[
+				"fun",
+				"fun_assert"
+			],
+			[
+				"reve",
+				"reversedx"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"tupla",
+				"tuapla_de_tuplas"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"Use",
+				"UserCreationForm"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"bot",
+				"button\tTag"
+			],
+			[
+				"diccionario",
+				"diccionario_pc"
+			],
+			[
+				"opt",
+				"optgroup\tTag"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"post",
+				"post_new"
+			],
+			[
+				"print",
+				"print_io"
+			],
+			[
+				"bo",
+				"blockquote\tTag"
+			],
+			[
+				"prin",
+				"print_io"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"auto",
+				"autofocus\tAttr"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"User",
+				"UserForm"
+			],
+			[
+				"def",
+				"def\tFunction"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ejemplo",
+				"ejemplo_2"
+			],
+			[
+				"working",
+				"Working_Forms"
+			],
+			[
+				"worki",
+				"Working_Forms"
+			],
+			[
+				"for",
+				"working_forms"
+			],
+			[
+				"ar",
+				"archivos_de_muestra"
+			],
+			[
+				"fichero",
+				"ficherosDe_clases"
+			],
+			[
+				"spl",
+				"splitext"
+			],
+			[
+				"by",
+				"byte_size"
+			],
+			[
+				"b",
+				"bytes_var"
+			],
+			[
+				"ruta",
+				"rutas_archivos"
+			],
+			[
+				"una",
+				"una_lista"
+			],
+			[
+				"metad",
+				"metadata"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"con",
+				"conjunto_2"
+			],
+			[
+				"conjunto",
+				"conjunto_1"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"tex-al",
+				"text-align\tproperty"
+			],
+			[
+				"do",
+				"Download"
+			],
+			[
+				"hi",
+				"height\tAttr"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"home",
+				"home_test"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"http",
+				"HttpResponse"
+			],
+			[
+				"q",
+				"question_text"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"c",
+				"cccccc"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"nom",
+				"nombre-contacto"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"pla",
+				"players"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"card",
+				"card_values"
+			],
+			[
+				"de",
+				"deck"
+			],
+			[
+				"sr",
+				"str_cards"
+			],
+			[
+				"pri",
+				"printDeck"
+			],
+			[
+				"vida",
+				"vida_base"
+			],
+			[
+				"e",
+				"edad"
+			],
+			[
+				"contac",
+				"contact_index"
+			],
+			[
+				"conta",
+				"contacts"
+			],
+			[
+				"load",
+				"load_contacts"
+			],
+			[
+				"fram",
+				"frame_contact_list"
+			],
+			[
+				"contacts",
+				"contacts"
+			],
+			[
+				"contact",
+				"contact"
+			],
+			[
+				"fee",
+				"feet_entry"
+			],
+			[
+				"main",
+				"mainframe"
+			],
+			[
+				"contact_in",
+				"contact_index"
+			],
+			[
+				"SHOW",
+				"show_all"
+			],
+			[
+				"AC",
+				"ACTION_REMOVE_CONTACT"
+			],
+			[
+				"ACT",
+				"ACTION_ADD_CONTACT"
+			],
+			[
+				"time",
+				"time_text"
+			],
+			[
+				"hours",
+				"hours_file"
+			],
+			[
+				"ni",
+				"day_night_lable"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"django",
+				"DjangoTag: Insert/Switch Block"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/israel/DEV/python_cursos/ar_python/untitled",
+		"/home/israel/Descargas/0002 Sonogram at the End - Una moglie differente.rtf",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/rango/models.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/populate_rango.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/rango/admin.py",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Quiz let/Vocabulario.txt",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/templates/rango/israel.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/templates/rango/index.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/templates/rango/category.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/templates/rango/add_page.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/templates/rango/add_category.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/templates/rango/about.html",
+		"/home/israel/DEV/bash_curso/bash_linux_apuntes.txt",
+		"/home/israel/DEV/bash_curso/comando linux.txt",
+		"/home/israel/.back_up_bashrc",
+		"/home/israel/.bashrc",
+		"/home/israel/search_results.txt",
+		"/home/israel/DEV/django_cursos/tango_with_Django/a) logic and matematic",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/TWD_S_TRY/urls.py",
+		"/home/israel/DEV/django_cursos/django_girls/blog/blog/admin.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/rango/models.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/TWD_S_TRY/settings.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/practice/models.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/rango/admin.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/practice/admin.py",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Listening/video_name_vocabulary",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/temp.html",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/AVANCES GENERALES.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/books/elementary.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Quiz let/Frases y expresiones.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/.gitignore",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/DEPARTAMENTO PUBLICACION/FOTOS EN JPG/description.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Quiz let/Verbos Frasales.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Quiz let/verbos irregulares.txt",
+		"/home/israel/Descargas/countdown",
+		"/home/israel/DEV/python_cursos/Dan_at_Real Python_MAIL/lab.py",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/palabras_español.txt",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/practice/forms.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/practice/migrations/0001_initial.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/practice/urls.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/templates/practice/index.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/templates/practice/fields_types.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/practice/views.py",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Flash cards temp.txt",
+		"/home/israel/lab.py",
+		"/home/israel/DEV/django_cursos/step-by-step.subl",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/LAB.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/templates/rango/base.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/templates/practice/templates.html",
+		"/home/israel/DEV/django_cursos/official_web_tutorial/mysite/polls/models.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/rango/urls.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/rango/views.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/templates/rango/index.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/rango/static/css/style.css",
+		"/home/israel/DEV/django_cursos/django_girls/blog/blog/templates/blog/base.html",
+		"/home/israel/DEV/django_cursos/tango_with_Django/second_try/TWD_S_TRY/templates/practice/generic.html",
+		"/home/israel/DEV/html_y_css_curso/nate_gentile/sobre_mi.html",
+		"/home/israel/DEV/html_y_css_curso/nate_gentile/styles.css",
+		"/home/israel/alias",
+		"/home/israel/aliases.*",
+		"/home/israel/DEV/django_cursos/LAB/mysite/LAB.py",
+		"/home/israel/DEV/django_cursos/LAB/mysite/templates/admin/base_site.html",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/admin.py",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/models.py",
+		"/home/israel/DEV/django_cursos/LAB/mysite/mysite/settings.py",
+		"/home/israel/.local/lib/python3.8/site-packages/django/contrib/admin/templates/admin/base_site.html",
+		"/home/israel/.local/lib/python3.8/site-packages/django/contrib/admin/templates/admin/admin_site.html",
+		"/home/israel/.local/lib/python3.8/site-packages/django/contrib/admin/templates/base_site.html",
+		"/home/israel/.local/lib/python3.8/site-packages/django/contrib/admin/template",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/views.py",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/templates/polls/index.html",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/static/polls/style.css",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/urls.py",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/templates/polls/results.html",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/templates/polls/detail.html",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/templates/polls/question_startswith.html",
+		"/home/israel/DEV/django_cursos/LAB/mysite/mysite/urls.py",
+		"/home/israel/DEV/django_cursos/LAB/mysite/polls/migrations/0001_initial.py",
+		"/home/israel/DEV/django_cursos/LAB/mysite/txt.txt",
+		"/home/israel/.bash_aliases",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/rango/views.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/rango/forms.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/rango/urls.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/lab.py",
+		"/home/israel/DEV/django_cursos/tango_with_Django/tango_with_django_project/tango_with_django_project/settings.py",
+		"/home/israel/DEV/django_cursos/venv.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/AVANCES GENERALES.rtf",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/9.2) Overview_ Acts Ch. 13-28 - English.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Quiz let/irreguar verbs.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lessons/irreguar verbs.txt",
+		"/home/israel/DEV/python_cursos/ar_python/python_ar.py",
+		"/home/israel/DEV/django_cursos/django commands.txt",
+		"/home/israel/Documentos/respaldo.txt",
+		"/home/israel/Documentos/__TEMP__.txt",
+		"/home/israel/Documentos/filtrador.py",
+		"/home/israel/Documentos/resultados.txt",
+		"/home/israel/Documentos/__TEMP__",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/9.1) Overview_ Acts Ch. 1-12 - English.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lessons/lesson:connectors.txt",
+		"/home/israel/DEV/django_cursos/ejemplo.txt",
+		"/home/israel/DEV/django_cursos/asdasd",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/8) New Testament Letters_ Historical Context.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Quiz let/Vocabulario",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/New Testament Letters_ Historical Context.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/sublime_text_project/Quiz let/Vocabulario",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/7) New Testament Letters_ Literary Context.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/6) Water of Life - English.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Quiz let/Verbos Frasales",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Quiz let/Frases y expresiones",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/preguntas_de_grupo.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Regla ingles.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Platicas/1.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lessons/lesson:terminaciones.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/statics/lesson:connectors.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/5.1)The Satan and Demons - English.txt",
+		"/home/israel/DEV/TEMP/django_g_remember/step-by-step.subl",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/views.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/templates/blog/post_list.html",
+		"/home/israel/DEV/TEMP/django_g_remember/mysite/urls.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/urls.py",
+		"/home/israel/DEV/TEMP/django_g_remember/mysite/settings.py",
+		"/home/israel/DEV/TEMP/django_g_remember/sublime_text/django_g_remember.sublime-project",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/models.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/admin.py",
+		"/home/israel/DEV/python_cursos/python_ar.py",
+		"/home/israel/DEV/python_cursos/general_lab.py",
+		"/home/israel/DEV/python_cursos/exercises_web.py",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/5) The Satan and Demons - Spanish.txt"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "as_python.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"polls/inde",
+				"Django_cursos/official_web_tutorial/mysite/polls/templates/polls/index.html"
+			],
+			[
+				"polls/index",
+				"Django_cursos/official_web_tutorial/mysite/polls/templates/polls/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

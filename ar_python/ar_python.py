@@ -223,12 +223,16 @@ def main():
 	#For__.dc_5()
 	#curious_fact_3()
 	#Dict__.dc_1()
-	curious_fact_varios.ejemplo_3()
+	#curious_fact_varios.ejemplo_3()
 	#Files__.dc_1()
-	pass	
+	def f(uno,dos,tres,cuatro):
+		print("{}-{}-{}-{}".format(uno,dos,tres,cuatro))
 
-			
-	
+	args={'cuatro':4,'dos':2,'uno':1,'tres':3}
+	l=[value for key,value in args.items()]
+	t=tuple(l)	
+
+	f(*t)
 
 if __name__ == "__main__":
 	main()

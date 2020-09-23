@@ -508,10 +508,10 @@
 	"buffers":
 	[
 		{
-			"file": "ar_python.py",
+			"file": "python_ar.py",
 			"settings":
 			{
-				"buffer_size": 6111,
+				"buffer_size": 5937,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -760,19 +760,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "ar_python.py",
+					"file": "python_ar.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6111,
+						"buffer_size": 5937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6076,
-								6076
+								0,
+								0
 							]
 						],
 						"settings":
@@ -781,7 +781,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4105.0,
+						"translation.y": 2508.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
